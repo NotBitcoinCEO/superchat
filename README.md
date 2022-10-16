@@ -15,13 +15,11 @@ I used React and very helpful was Firebase's built in scripts to establish parti
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Firebase](https://firebase.google.com/)
 * [Stack Overflow (example)](https://stackoverflow.com/questions/69392153/cant-import-button-in-react)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * I'm in great need of being more organized. My app was all over the place!
 * I'm learning the process of regularizing particular parts of my code. I would like to be more consistent. 
 * In this chat app there were certain portions I need to draw from online help. I need more practice doing it from scratch.
