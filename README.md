@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this app I was looking to create a simple chat app. This was a difficult project for me as I have little experience with online databases. Let just say I learned a lot with this project. 
 
-## Available Scripts
+The easiest way to use this app is to open it up, sign-in, type something, and hit enter. It's that easy!
 
-In the project directory, you can run:
+The purpose for this app is to create a way for my friends and I to chat in a customizable environment. 
 
-### `npm start`
+[React Chat App Demo Video](https://youtu.be/lH1CGP5l55M)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Development Environment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To create this I used Google's online Firebase and many different online resources to help me learn. 
+I used React and very helpful was Firebase's built in scripts to establish particular parts of this app.
 
-### `npm test`
+# Useful Websites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+{Make a list of websites that you found helpful in this project}
+* [Firebase](https://firebase.google.com/)
+* [Stack Overflow (example)](https://stackoverflow.com/questions/69392153/cant-import-button-in-react)
 
-### `npm run build`
+# Future Work
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+{Make a list of things that you need to fix, improve, and add in the future.}
+* I'm in great need of being more organized. My app was all over the place!
+* I'm learning the process of regularizing particular parts of my code. I would like to be more consistent. 
+* In this chat app there were certain portions I need to draw from online help. I need more practice doing it from scratch.

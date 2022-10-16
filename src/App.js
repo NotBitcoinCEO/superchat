@@ -3,7 +3,6 @@ import './App.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-
 import { useAuthState } from 'react=firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
@@ -68,9 +67,7 @@ function ChatRoom() {
 
   const sendMessage = async(e) => {
 
-    else.preventDefault();
-
-    else.preventDefault();
+    e.preventDefault();
 
     const { uid, photoURL } = auth.currentUser;
 
@@ -87,35 +84,35 @@ function ChatRoom() {
 
   }
 
-
   return (
     <>
-      <main>
+      <div>
         {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
 
         <div> ref={dummy}</div>
-      </main>
+      </div>
 
 
       <form onSubmit={sendMessage}>
 
-        <input value={formValue} onChange={} />
+        <input value={formValue} onChange={(e) = > setFormValue(e.target.value)} />
 
-        <button type='submit'>O</button>
+        <button type='submit'>:D</button>
 
       </form>
     
     </>
   )
 }
-function ChatMessage(Props) {
+
+function ChatMessage(props) {
   const { text, uid, photoURL } = props.message;
 
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
 
   return (
     <div className={'message ${messageClass}'}>
-
+      <img src={photoURL} />
       <p>{text}</p>
     </div>
   )
